@@ -1,0 +1,22 @@
+.thumbnail-viewer {
+    overflow-y: auto;
+    height: 100vh;
+    padding: 1rem;
+    text-align: center;
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    max-width: 175px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
